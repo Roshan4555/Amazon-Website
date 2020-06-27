@@ -5,7 +5,7 @@
 
 		body{
         overflow: hidden;    
-        background: linear-gradient(to bottom,#98fb98 130px, #E6E6FA 50%);
+        background: linear-gradient(to bottom,#F0F8FF 80px, #E6E6FA 50%);
         margin:0 auto;
     }
 		.table{			
@@ -175,14 +175,14 @@ border:none;
 }
 .locationbutton{
 	overflow: hidden;
-    margin-top: 10px;
+    margin-top: 20px;
 	background-color: #232f3e;
 	width: 60px;/*150,28*/
 	height: 32px;
 	border:none;
 }
 .taskbar{
-	width: 250px;/*750*/
+	width: 260px;/*750*/
 	margin-left: 0px;
 }
 .taskbar-contents{
@@ -200,9 +200,9 @@ opacity: 0.6;
 .normaltext{
 /*width: 00px;*/
 margin-top: 25px;
-width: 80px;
+width: 70px;
 color: white;
-font-size: 6px;
+font-size: 5px;
 }
 .returnbutton{
 	background-color: #232f3e;
@@ -415,7 +415,7 @@ margin-left: 20px;
 	text-decoration: underline;
 }
 .titlebold b{
-	font-size: 13px;
+	font-size: 11px;
 	color: white;
 }
 .horizontal{
@@ -435,9 +435,6 @@ b{
 	padding-top: 30px;
 }
 
-
-	
-/**************************************************************Responsive Media Query*********************************************************************/
 .dropbtn:hover, .dropbtn:focus {
  cursor: pointer;
  outline:none;
@@ -479,7 +476,7 @@ border:1px ridge rgba(255,255,255,0.5);
 	.amazonimage:hover{
 /*	width: 37px;
 	height: 18px;*/
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 border:1px ridge rgba(255,255,255,0.4);
 }
 	.button:hover{

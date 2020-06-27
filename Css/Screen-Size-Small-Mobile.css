@@ -5,7 +5,7 @@
 
 		body{
         overflow: hidden;    
-        background: linear-gradient(to bottom,#98fb98 130px, #E6E6FA 50%);
+        background: linear-gradient(to bottom,#F0F8FF 80px, #E6E6FA 50%);
         margin:0 auto;
     }
 		.table{			
@@ -492,7 +492,7 @@ border:1px ridge rgba(255,255,255,0.5);
 	.amazonimage:hover{
 /*	width: 37px;
 	height: 18px;*/
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 border:1px ridge rgba(255,255,255,0.4);
 }
 	.button:hover{

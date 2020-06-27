@@ -11,7 +11,7 @@
 		body{
   overflow: visible;
     
-        background: linear-gradient(to bottom,#98fb98 130px, #E6E6FA 50%);
+        background: linear-gradient(to bottom,#F0F8FF 130px, #E6E6FA 50%);
       margin:0 auto;
     }
 
@@ -19,6 +19,7 @@
 outline: none;
 		}
 		#col-1{
+			margin: 0 auto;
 			width: 160px;
 			height: 35px;
 		}
