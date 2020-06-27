@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Online Shopping site in India
+	</title>
+  <link rel="icon" href="Images\amazon.png" type="image/icon type">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="Css\Screen-Size-Mobile.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 390px)" href="Css\Screen-Size-Small-Mobile.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 768px)" href="Css\Screen-Size-Desktop.css">
+</head>
+<style type="text/css">
+  
+</style>
+<body>
+    
+	<table border="0" class="table">
+  <tr class="row11">
+    <td id="col-1">
+      
+    <button class="button"><i class="fa fa-bars bars" id="bars"></i></button>
+      
+      <a href="#">
+      <img src="Images\amazon_icon.jpg" class="amazonimage">
+      </a>
+      
+    </td>
+        <td id="col-2">
+       <div class="cellplace">
+        <!-- <div class="selectplace"> -->
+
+   <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">All<i class="fa fa-caret-down" style="color: black;padding-left: 3px"></i></button>
+  <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#Mobiles">Mobiles</a>
+    <a href="#Laptops">Laptops</a>
+    <a href="#Electronics">Electronics</a>
+    <a href="#Fashion">Fashion</a>
+    <a href="#Prime">Prime</a>
+
+  </div>
+</div>
+
+      <script>
+              function myFunction(){
+              document.getElementById("myDropdown").classList.toggle("show"); 
+              }
+              window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+                 }
+                }
+               }
+              }
+
+        </script>
+
+        </div>
+        <div class="inputplace">
+        <input type="text" name="input" class="inputfield">
+        </div>
+        <div class="buttonplace">
+        <button class="searchbutton"><i class="fa fa-search" style="color: black"></i></button> 
+        </div>
+       
+        <div class="linkhover">
+        <a href="#">
+        <span id="EN_style">EN</span><br>
+          <i class="fa fa-language" style="opacity: 0.9"></i><i class="fa fa-caret-down" id="caret_down"></i>
+          </a>
+        </div>
+       </div>
+     </td>
+        <td id="col-3">
+          <button class="Loginbutton"><span class="logintext_1">Hello.Sign in</span><br><span class="logintext_2">Accounts & Lists</span><i class="fa fa-caret-down" id="caret_down"></i></button>
+        </td>
+        <td id="col-4">
+          <button class="returnbutton"><span class="logintext_1">Returns</span><br><span class="logintext_2" style="color: white">&Orders</span></button>
+        </td>
+        <td id="col-5">
+          <button class="primeplace"><span class="logintext_1">Try</span><br><span class="logintext_2">Prime</span><i class="fa fa-caret-down" id="caret_down"></i></button>
+        </td>
+        <td id="col-6">
+          <button class="cartplace"><i class="fa fa-cart-plus fa-flip-horizontal" id=cart_size></i><span class="cart">Cart</span></button>
+        </td>
+  </tr>
+  <tr class="row12">
+    <td>
+      <button  class="locationbutton"><i class="fa fa-map-marker location_font"></i><span class="logintext_1">Hello</span><br><span class="logintext_2">Select your address</span></button>
+    </td>
+    <td>
+      <div class="taskbar">
+          <div class="taskbar-contents">
+            <a href="#">BestSellers</a>
+            <a href="#">Mobiles</a>
+            <a href="#">Amazon Pay</a>
+            <a href="#">New Release</a>
+            <a href="#">Pantry</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Computer</a>
+            <a href="#">Books</a>
+            <a href="#">Gift Ideas</a>
+            <a href="#">Sells</a>
+            <a href="#">AmazonBasics</a>
+            </div>       
+        </div>
+    </td>
+    <td colspan="4">
+      <p class="normaltext">India's Fastest Online Shopping Destination</p>
+    </td>
+  </tr>
+</table>
+<!-- ************************ROW1**********************New Cell Starting************************************************************* -->
+<table class="table1" border="0" id="table1" >
+		<tr>
+			<td style="padding: 20px">
+				<b >Free Kindle ebooks for you and your family</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="Product_Pages\Kindle.html" target="_blank">
+				<img src="Images\Kindle.jpg" alt="description here" id="kindle">
+			    </a>
+			</td>
+		</tr>
+		<tr>
+	<td colspan="2">
+		<a href="#">
+			Explore all ebooks
+		</a>
+	</td>
+</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************New Cell Starting********************************************************** -->
+<table class="table1" border="0">
+
+<tr>
+	<td colspan="2" style="padding: 20px">
+		<b >Recharges,Bills,Medicines & Amazon Pay</b>
+	</td>
+</tr>
+
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;" >
+    <a href="Product_Pages\Mobile_recharge.html" style="text-decoration: none;color: black" target="_blank">
+    <img src="Images\Mobile_recharge.png" alt="description here" id="Recharges_img" />
+    <br />
+    <span id="Product_des">Mobile Recharges</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170" height="110" id="bills_col">
+    <a href="Product_Pages\Bills.html" style="text-decoration: none;color: black" target="_blank">
+    <img src="Images\Bills.png" alt="description here" id="Recharges_img" >
+    <br />
+    <span id="Product_des">Bills</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center" id="Medicines_col">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Medicines.png" alt="description here" id="Recharges_img" />
+    <br />
+   <span id="Product_des"> Medicines</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center"  id="Amazon_col">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\Amazon_Pay.png" alt="description here" id="Recharges_img" >
+   <br/>
+   <span id="Product_des">Amazon Pay</span>
+   </a>
+ <!--   <br>
+ <a href="#" style="padding-top: 20px">See more</a>
+ </td> -->
+</td>
+
+</tr>
+<tr>
+	<td colspan="2">
+		<a href="#" >
+			See more
+		</a>
+	</td>
+</tr>
+</table>
+
+
+
+
+
+<!-- ***********************************************************New Cell Starting********************************************************* -->
+	<table class="table1"  border="0" cellspacing="3px">
+<tr>
+	<td colspan="2" height="65" style="padding-left: 17px">
+		<b >New AudioBooks</b>
+	</td>
+</tr>
+
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;padding: 10px" id="Bio_col" width="170"  >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\bio.jpg" alt="description here" id="Audio_img">
+    <br />
+    <span id="Product_des">Biographies</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170"  id="Lit_col">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Literature.jpg" alt="description here" id="Audio_img"/>
+    <br />
+    <span id="Product_des">Literature & fiction</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center"  id="Health_col">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Fitness.jpg" alt="description here" id="Audio_img">
+    <br />
+    <span id="Product_des">Health & fitness</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center"  id="Buss_col">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\bussiness money.jfif" alt="description here" id="Audio_img">
+   <br />
+   <span id="Product_des">Bussiness & money</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-top:20px">
+		<a href="#">
+			Browse more audiobooks
+		</a>
+	</td>
+</tr>
+
+</table>
+<!-- **********************************************************New Cell Starting******************************************************** --> 
+		<table class="table1" border="0" cellspacing="3px">
+		<tr>
+			<td style="padding: 20px">
+				<b >Amazon cares about your safety</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="#">
+				<img src="Images\Amazon_Safety.jpg" alt="description here" id="Safety_img">
+			    </a>
+			</td>
+		</tr>
+		<tr>
+	<td colspan="2" style="padding-top: 28px">
+		<a href="#">
+			Learn more
+		</a>
+	</td>
+</tr>
+	</table>
+<!-- ************************************ROW2**********************New Cell Starting****************************************************** -->
+	<!-- ************************************************************************************************************************************* -->
+	<table  class="table1" border="0" cellspacing="3px">
+<tr>
+	<td colspan="2" style="padding-top: 15px;padding-left: 12px">
+		<b >The Forgotten Army:Azadi Ke Liye</b>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href="https://www.primevideo.com/detail/amzn1.dv.gti.8eb77c83-243a-5bc4-cb3f-167b95a0fb81/ref_" target="_blank">
+		<img src="Images\forgotten_image.jpg" alt="description here" id="Prime_img">
+		</a>
+		</td>
+	</tr>
+
+<tr>
+	<td colspan="2" style="padding-top: 23px">
+		<a href="#">
+			Join Prime for Rs129/month to watch
+		</a>
+	</td>
+</tr>
+</table>
+
+
+<!-- ******************************************************New Cell Starting********************************************************** -->
+<table class="table1" border="0" cellspacing="3px">
+<tr>
+	<td colspan="2" height="63" style="padding-left: 10px">
+		<b >Join Prime to enjoy benefits</b>
+	</td>
+</tr>
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;" width="170"  id="Pv_col" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Prime_video.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Prime video</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170"  id="Pm_col">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Prime_music.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Prime music</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center"  id="Pr_col">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Prime_reading.jpg" alt="description here" id="Product_img">
+    <br />
+    <span id="Product_des">Prime reading</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center"  id="Pf_col">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\Free_delivery.jpg" alt="description here" id="Product_img">
+   <br />
+   <span id="Product_des">Free delivery</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-top: 52px">
+		<a href="#">
+			See more
+		</a>
+	</td>
+</tr>
+
+</table>
+<!-- ***********************************************************New Cell Starting********************************************************** -->
+	<table class="table1" border="0" cellspacing="3px">
+		<tr>
+			<td style="padding: 16px">
+				<b >Mens's Fashion</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="#">
+				<img src="Images\Shirts.jpg" alt="description here" id="Mens_img">
+			    </a>
+			</td>
+		</tr>
+		<tr>
+	<td colspan="2" style="padding-top: 23px">
+		<a href="#">
+			See more
+		</a>
+	</td>
+</tr>
+	</table>
+<!-- **********************************************************New Cell Starting******************************************************* --> 
+		<table class="table1" border="0" cellspacing="3px">
+		<tr>
+	<td colspan="2" height="63" style="padding-left: 13px;padding-top: 10px">
+		<b>New audiobooks-listen anytime,anywhere</b>
+	</td>
+</tr>
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;" width="170" height="100" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Self_development.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Self development</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170" height="130">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Children_audiobooks.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Children audiobooks</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center" height="150" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Biographies.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Biographies & memories</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center" height="150">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\Literature_fiction.jpg" alt="description here" id="Product_img" />
+   <br />
+   <span id="Product_des">Literature & fiction</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" id="more">
+		<a href="#">
+			See more
+		</a>
+	</td>
+</tr>
+	</table>
+<!-- *****************************************************************ROW3******************************************************************** -->
+	<table class="table1" border="0" cellspacing="3px">
+<tr>
+	<td colspan="2" height="63" style="padding-left: 10px">
+		<b >Grocery Essentials</b>
+	</td>
+</tr>
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;" width="170" height="100" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Cooking_essentials.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Grocery Essentials</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170" height="130">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Breakfast_essentials.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Breakfast  Essentials</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center" height="150" class="second">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Ready_eat.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Ready  to eat</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center" height="150" class="second">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\Grocery.jpg" alt="description here" id="Product_img" />
+   <br />
+   <span id="Product_des">All grocery</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" id="more" >
+		<a href="#">
+			See more
+		</a>
+	</td>
+</table>
+
+
+<!-- ******************************************************New Cell Starting********************************************************** -->
+<table class="table1" border="0" cellspacing="3px">
+<tr>
+	<td colspan="2" height="63" style="padding-left: 10px">
+		<b >Join Prime to enjoy benefits</b>
+	</td>
+</tr>
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;padding-left: 10px" width="170" height="100" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Laundry.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Laundry essentials</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170" height="130">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Cleaners.jpg" alt="description here" id="Product_img" />
+    <br />
+    <span id="Product_des">Cleaners</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center" height="150" style="padding-left: 10px">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Skin.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Skin,hair,body care</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center" height="150">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\Toiletry.jpg" alt="description here" id="Product_img"/>
+   <br />
+   <span id="Product_des">Toiletry suppliers</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" id="more" >
+		<a href="#">
+			See more
+		</a>
+	</td>
+</tr>
+
+</table>
+<!-- ***********************************************************New Cell Starting********************************************************** -->
+	<table class="table1" border="0" cellspacing="3px">
+		<tr>
+	<td colspan="2" height="63" style="padding-left: 10px">
+		<b>Health & fitness</b>
+	</td>
+</tr>
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;padding-left: 10px" width="170" height="100" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\healthcare.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Health care devices</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170" height="130">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\family.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Family nutrition</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center" height="150" style="padding-left: 10px">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\healthsupplements.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Health supplements</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center" height="150">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\sports.jpg" alt="description here" id="Product_img"/>
+   <br />
+   <span id="Product_des">Sports nutrition</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" id="more" >
+		<a href="#">
+			See more
+		</a>
+	</td>
+</tr>
+</tr>
+	</table>
+<!-- *******************************************************New Cell Starting******************************************************** --> 
+		<table class="table1" border="0" cellspacing="3px">
+		<tr>
+	<td colspan="2" height="63" style="padding-left: 13px;padding-top: 10px">
+		<b>New audiobooks-listen anytime,anywhere</b>
+	</td>
+</tr>
+<tr>
+ <td align="center" valign="center" style="white-space: nowrap;" width="170" height="100" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Self_development.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Self development</span>
+    </a>
+ </td>
+
+ <td align="center" valign="center" width="170" height="130">
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Children_audiobooks.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Children audiobooks</span>
+    </a>
+ </td> 
+</tr>
+
+<tr>  
+  <td align="center" valign="center" height="150" >
+    <a href="#" style="text-decoration: none;color: black">
+    <img src="Images\Biographies.jpg" alt="description here" id="Product_img"/>
+    <br />
+    <span id="Product_des">Biographies & memories</span>
+    </a>
+  </td>
+
+ <td align="center" valign="center" height="150">
+   <a href="#" style="text-decoration: none;color: black">
+   <img src="Images\Literature_fiction.jpg" alt="description here" id="Product_img"/>
+   <br />
+   <span id="Product_des">Literature & fiction</span>
+   </a>
+ </td>
+</tr>
+<tr>
+	<td colspan="2" id="more" >
+		<a href="#">
+			See more
+		</a>
+	</td>
+</tr>
+</table>
+
+<div class="bannerimage">
+	<div class="bannerback">
+		<a href="#">
+	<img src="Images\manish.jpg">
+    </a>
+    </div>
+</div>
+<!-- ***********************************************************Footer******************************************************* -->
+	<div class="footer">
+		<div class="footerplace">
+			<button onclick="Scrollup()" class="bfooter">Back to top</button>
+		  <script type="text/javascript">
+		  function Scrollup(){
+		  	document.body.scrollTop=0;
+		  	document.documentElement.scrollTop=0;
+		  }  	
+
+		  </script>
+        
+
+        </div>
+	   <div class="footertext" align="center" style="vertical-align: center">
+	   	<div class="footeralign">
+		  <div class="coll1">
+          <span class="titlebold"><b>Get to know us</b></span>
+          <a href="#">About Us</a>
+          <a href="#">Career</a>
+          <a href="#">Press Releases</a>
+          <a href="#">Amazon Cares</a>
+          <a href="#">Gift a Smile</a>
+		  </div>
+		  <div class="coll1">
+		  <span class="titlebold"><b>Connect with Us</b></span>
+		  <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>	
+		  </div>
+		  <div class="coll1" id="coll1">
+		  <span class="titlebold"><b>Make Money  with Us</b></span>	
+		  <a href="#">Sell on Amazon</a>
+          <a href="#">Sell on Amazon Accelerator</a>
+          <a href="#">Become a Affiliate</a>
+          <a href="#">Fulfilment by Amazon</a>
+          <a href="#">Advertise your Products</a>
+          <a href="#">Amazon Pay on Merchants</a>
+		  </div>
+		  <div class="coll1">
+		  <span class="titlebold"><b>Let Us Help You</b></span>
+		  <a href="#">Your Account</a>
+          <a href="#">Return Center</a>
+          <a href="#">100% Purchase Protection</a>
+          <a href="#">Amazon App Download</a>
+          <a href="#">Amazon Assitance Download</a>
+		  </div>
+		</div>
+	   </div>
+	   <br><br><br>
+	   
+<!-- 	   <div class="amazonimage">
+	   	<a href="#">
+	   	<img src="Images\amazon_icon.jpg" style="width: 100px;height: 45px">
+        </a>
+        
+       </div> -->
+	</div>
+
+	</body>
+</html>

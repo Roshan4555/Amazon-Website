@@ -1,0 +1,41 @@
+body{
+	background-color: white !important;
+}
+.Billstext b{
+	font-size: 25px;
+}
+.img{
+	padding-top: 30px;
+	height: 250px;
+	width: 98%;
+}
+.buttonstyle{
+	width: 228px;
+	background-color: white;
+	color: black:
+	border:none;
+	border:1px ridge gray;
+	box-shadow: 0px;
+    padding:23px;
+}
+.buttonstyle:hover{
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+.moretext b{
+	font-family: sans-serif;
+	font-size: 28px;
+}
+.textplace{
+	padding: 15px;
+}
+.rechargebutton{
+	float: left;
+	padding-left: 15px; 
+    padding-top: 10px;
+}
+.button1{
+	float: left;
+	padding-right: 25px;
+}

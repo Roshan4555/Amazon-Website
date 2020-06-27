@@ -1,0 +1,61 @@
+body{
+	text-align:center;
+  overflow: visible;
+    width: 100%;
+        background-color:white !important; 
+      margin:0 auto;
+}
+.Rechargetext{
+padding-top: 15px;
+}
+.Rechargebutton{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.Buttonstyle{
+	padding: 6px;
+width: 500px;
+}
+.Rechargedetails{
+	padding: 30px;
+	width: 500px;
+	position: relative;
+	display: inline-block;
+	border:1px solid gray;
+}
+.nameclass{
+	padding-bottom: 15px;
+}
+.operatorclass{
+	padding-bottom: 15px;
+}
+.viewplanclass{
+	padding-bottom: 15px;
+}
+.text{
+width: 450px;
+height: 35px;
+}
+.textdesign b{
+	font-family: sans-serif;
+padding-right: 302px;
+font-size: 13px;
+}
+.continue{
+	border: none;
+	opacity: 0.9;
+	border-radius: 3px;
+	background-color:Orange;
+	color: black;
+	height: 30px;
+	width: 170px;
+}
+textarea{
+ width: 450px;
+ height: 35px;
+ resize: none;
+ padding-top: 8px;
+ padding-left: 370px;
+ color: blue;
+cursor: pointer;
+}

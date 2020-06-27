@@ -1,0 +1,495 @@
+		*{
+		box-sizing: border-box;
+		overflow-x:hidden; 
+	}
+
+		body{
+        overflow: hidden;    
+        background: linear-gradient(to bottom,#98fb98 130px, #E6E6FA 50%);
+        margin:0 auto;
+    }
+		.table{			
+			margin: 0 auto;
+			width: 100%;
+			height: 65px;
+			background-color: #232f3e;
+		}
+
+.button{
+	
+	width: 21px;/*40,38*/
+	height: 18px;
+	background-color: #232f3e;
+	/*margin-left: 10px;*/
+	border-radius: 3px;
+	cursor: pointer;
+	border:1px ridge rgba(255,255,255,0.4);
+}
+#col-1{
+	margin-top: 20px;
+	width: 80px;/*140*/
+}
+
+.row11{
+	overflow-y: hidden;
+	width: 100%;
+	height:40px; 	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #232F3E;
+}
+.row12{
+height: 30px;
+overflow-y: hidden;
+}
+.amazonimage{
+	padding-top: 0px;
+	/*margin-left: 5px;*/
+	width: 35px;/*60,38*/
+	height: 15px;
+}
+.bars{
+	font-size: 10px;
+	margin-right: 10px;
+}
+.inputfield{
+	
+    border:none;
+	width:240px;/*600,41*/
+	height: 18px;
+}
+.inputplace{
+	margin-top: 1.6px;
+	float: left;
+}
+.selectplace{
+	display: inline-block;
+float: left;
+}
+.buttonplace{
+float: left;
+}
+#EN_style{
+	color: white;
+	font-size: 7px;
+	opacity: 0.9;
+}
+#caret_down{
+	
+	font-size: 8px;
+	padding-left: 3px;
+	opacity: 0.9;
+}
+.selectbutton{
+
+	margin-left: 10px;
+	width:17px; /*27,32.5*/
+	height:18px;
+	border-radius: 8px 0px 0px 8px;
+}
+.searchbutton{
+	margin-top: 3px;
+	width: 21px;
+	height: 18px;
+	background-color: orange;
+	border-radius: 0px 6px 6px 0px;
+	opacity: 1;
+	border:none;
+}
+.searchbutton i{
+	font-size: 8px;
+}
+.cellplace{
+	float: left;
+
+}
+.linkhover {
+	display: none;
+	margin-left: 0px;
+	padding-left: 5px;
+	float: left;
+}
+.Loginbutton{
+	/*padding-top: 50px;*/
+	width:35px;
+	cursor: pointer;
+	height: 10px;
+	border:none;
+	background-color: #232f3e;
+}
+.location_font{
+	font-size: 8px;
+	float: left;
+	margin-top: 10px;
+}
+.logintext_1{
+	margin-top: 50px;
+	padding-right: 10px;
+	color: white;
+	opacity: 0.6;
+	font-size: 6px;
+}
+.logintext_2{
+	font-size: 4px;
+	color: white;
+}
+#col-2{
+	width: 300px;/*780*/
+}
+#col-3{
+	width: 35px;
+	display: none;
+}
+#col-4{
+	width: 30px;
+	display: none;
+}
+#col-5{
+	width: 10px;
+	display: none;
+}
+.cartplace{
+	width: 25px;
+	height: 37px;
+	/*margin-top: 5px;*/
+	float: right;
+	cursor: pointer;
+	background-color: #232f3e;
+	border:none;
+}
+.cart{
+	font-size: 8px;
+	color: white;
+	opacity: 0.9;
+}
+#cart_size{
+	color: white;
+	font-size: 15px;
+}
+.primeplace{
+	width: 20px;
+	padding-top: 8px;
+background-color: #232f3e;
+border:none;
+}
+.locationbutton{
+	overflow: hidden;
+    margin-top: 10px;
+	background-color: #232f3e;
+	width: 60px;/*150,28*/
+	height: 32px;
+	border:none;
+}
+.taskbar{
+	width: 250px;/*750*/
+	margin-left: 0px;
+}
+.taskbar-contents{
+	margin-top: 10px;
+}
+.taskbar-contents a{
+	display: inline-block;
+	font-size: 4px;
+	padding-right: 2px;
+text-decoration: none;
+color: white;
+opacity: 0.6;
+}
+
+.normaltext{
+/*width: 00px;*/
+margin-top: 25px;
+width: 80px;
+color: white;
+font-size: 6px;
+}
+.returnbutton{
+	background-color: #232f3e;
+	border:none;
+}
+.dropbtn {
+  background-color: white;
+  opacity: 0.8;
+  color: black;
+  height: 18.2px;
+  padding: 4px;
+  font-size: 7px;
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+  cursor: pointer;
+}
+
+.dropdown {
+		/*margin-top: 3px;*/
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  margin-left: 0px;
+  position: fixed;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+  min-width: 30px;
+  overflow: scroll;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 8px;
+  padding: 0px 4px;
+  text-decoration: none;
+  display: block;
+}
+.show {
+	display: block;
+}
+
+.table1 {
+	display: inline-block;
+    border-collapse: collapse;
+    background-color: white;
+    width: 350px;
+    height: 425px;
+    margin-left: 30px;
+    margin-top: 18px;
+  }
+#table1{
+	margin-top: 80px;
+}
+td b{
+	font-size: 18px;
+	text-align: center;
+}
+.table1:nth-child(2) img{
+width:300px;
+height: 270px;
+padding-left: 12px;
+}
+.table1	td a {
+	margin-right: 40px; 
+	text-decoration: none;
+	margin-top: 40px;
+	padding-left: 15px;
+	font-size: 10px;
+	color:#4169e1;
+	/*text-align: center;*/
+}
+#Safety_img{
+	width:300px ;
+	height: 270px;
+	padding-top: 10px;
+	padding-left: 12px;
+}
+#Prime_img{
+	width:300px ;
+	height: 300px;
+	padding-top: 10px;
+	padding-left: 12px;
+}
+#Mens_img{
+width:300px;
+height: 300px;
+padding-top: 10px;
+padding-left: 12px;
+}
+#more{
+	padding-top: 20px;
+}
+#Bio_col{
+height:110px;
+}
+#Lit_col{
+height:110px;	
+}
+#Buss_col{
+	height:150px;
+}
+#Health_col{
+	height:170px;
+}
+#Product_img{
+	width:150px ;
+	height: 110px;
+}
+#Audio_img{
+	width: 80px;
+	height: 80px;
+}
+#Recharges_img{
+	width: 80px;
+	height: 80px;
+}
+#Amazon_col{
+height:175px;
+}
+#Bills_col{
+height:110px;
+}
+#Medicines_col{
+height:175px;
+}
+#Pf_col{
+height:160px;
+}
+#Pv_col{
+height:110px;	
+}
+#Pr_col{
+	height:160px;
+}
+#Pm_col{
+	height:140px;
+}
+/*#Product_des{
+	padding-left: 20px;
+}*/
+.second{
+	padding-top: 30px;
+}
+.bannerback img{
+width: 310px;
+height: 170px;
+margin-top: 25px;
+margin-left: 20px;
+}
+.bannerimage{
+	margin-top: 18px;
+	margin-bottom: 18px;
+	background-color: white;
+	margin-left: 29px;
+width: 349px;
+height: 220px;
+}
+.footer{
+	background-color: #232F3E;
+    height: 220px;
+	left: 0;
+	bottom: 0;
+	text-decoration: none;
+}
+.bfooter{
+		text-align: center;
+		width: 100%;
+		cursor: pointer;
+		border:none;
+		height: 40px;
+        font-size: 14px;
+        padding: 4px;
+        background-color:DarkSlateGrey;
+        opacity: 0.8;
+        color: white;
+}
+
+.bfooter:hover{
+	opacity: 1;
+}
+.bfooter:focus{
+	outline: none;
+}
+.footeralign{
+margin-left: 20px;	
+}
+.coll1{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 10px;
+    float: left;
+    text-align: justify;
+}
+.coll1 a{
+	font-size: 10px;
+	opacity: 0.8;
+	color: white;
+	display: block;
+	padding: 2px;
+	text-decoration: none;
+}
+#coll1{
+	display: none;
+}
+.coll1 a:hover{
+	text-decoration: underline;
+}
+.titlebold b{
+	font-size: 13px;
+	color: white;
+}
+.horizontal{
+	width: 100%;
+	margin-top: 200px;
+	border:1px solid  white;
+	opacity: 0.2;
+}
+.amazonimage img
+{
+margin-left: 700px;
+}
+b{
+	font-size: 23px;
+}
+.second{
+	padding-top: 30px;
+}
+
+
+	
+/**************************************************************Responsive Media Query*********************************************************************/
+.dropbtn:hover, .dropbtn:focus {
+ cursor: pointer;
+ outline:none;
+}
+	.dropdown a:hover {background-color: #ddd;}
+	.locationbutton:hover{
+border:1px ridge rgba(255,255,255,0.5);	
+}
+	.primeplace:hover{
+	cursor: pointer;
+	/*height: 46px;*/
+	border:1px ridge rgba(255,255,255,0.5);	
+}
+	.cartplace:hover{
+
+	border:1px ridge rgba(255,255,255,0.5);
+}
+
+	.Loginbutton:hover{
+
+    /*height: 46px;*/
+	border: 1px ridge rgba(255,255,255,0.5);
+}
+	.linkhover:hover{
+	/*height: 41px;*/
+	border:1px ridge rgba(255,255,255,0.5);	
+	padding-right: 10px;
+}
+	.searchbutton:hover{
+	cursor: pointer;
+}
+.searchbutton:focus{
+	outline: none;
+}
+.inputfield:focus{
+	outline: none;
+}
+
+	.amazonimage:hover{
+/*	width: 37px;
+	height: 18px;*/
+	padding-top: 10px;
+border:1px ridge rgba(255,255,255,0.4);
+}
+	.button:hover{
+	border:1px solid white;
+}
+.button:focus{
+	outline: none;
+}
+i{	
+	color: white;
+}
+
+}

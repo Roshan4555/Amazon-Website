@@ -1,0 +1,31 @@
+body{
+  overflow: visible;
+    width: 100%;
+        background-color: white !important;
+      margin:0 auto;
+}
+.sidenav{
+	  height: 100%;
+  width: 210px;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  background-color: white;
+
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.kindleimage{
+padding-left: 210px;
+}
+.kindleimage img{
+	padding: 10px;
+	width: 100%;
+}
+.rightside{
+	padding-top: 20px;
+	padding-left: 216px;
+}
+hr{
+	opacity: 0.3;
+}
